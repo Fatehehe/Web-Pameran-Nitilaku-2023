@@ -1,0 +1,9 @@
+<svg width="289" height="185" viewBox="0 0 289 185" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="44.5" cy="92.5" r="92.5" fill="#FFC32B"/>
+<rect width="223" height="17" rx="8.5" transform="matrix(-1 0 0 1 187 104)" fill="#D9D9D9" fill-opacity="0.75"/>
+<rect width="199" height="17" rx="8.5" transform="matrix(-1 0 0 1 222 138)" fill="#D9D9D9" fill-opacity="0.75"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M38.5634 138H136.11C131.415 138 127.61 134.194 127.61 129.5C127.61 124.806 131.415 121 136.11 121H38.5634C43.2578 121 47.0634 124.806 47.0634 129.5C47.0634 134.194 43.2578 138 38.5634 138Z" fill="#D9D9D9" fill-opacity="0.75"/>
+<rect x="112" y="36" width="177" height="17" rx="8.5" fill="#D9D9D9" fill-opacity="0.75"/>
+<rect x="84" y="70" width="158" height="17" rx="8.5" fill="#D9D9D9" fill-opacity="0.75"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M153.5 70C152.988 70 152.487 69.9548 152 69.8681C155.979 69.1596 159 65.6826 159 61.5C159 57.3174 155.979 53.8404 152 53.1319C152.487 53.0452 152.988 53 153.5 53H231.5C226.806 53 223 56.8056 223 61.5C223 66.1944 226.806 70 231.5 70H153.5Z" fill="#D9D9D9" fill-opacity="0.75"/>
+</svg>

@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Kalnia:wght@200;300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Kalnia:wght@200;300;400;500;600;700&family=Montserrat:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kalnia", sans-serif;
+}
+
+body {
+  background: #1e140b;
+  width: 100%;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 1%;
+}
+
+#page-header {
+  border: 1px solid white;
+  padding: 0.2rem 3rem;
+  border-radius: 2rem;
+}
+
+#page-header h1 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: white;
+}
+
+#cover {
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  z-index: -1;
+}
+
+#texture {
+  width: 100%;
+  position: absolute;
+  z-index: -3;
+}
+
+#sky {
+  position: relative;
+  padding-top: 24%;
+  width: 70%;
+  z-index: -2;
+}
+
+#judul {
+  position: relative;
+  color: white;
+  top: 20vh;
+  padding-left: 5%;
+  padding-bottom: 70%;
+}
+
+#judul h1 {
+  font-size: 2.75rem;
+  font-weight: 500;
+}
+
+#judul p {
+  font-size: 0.65rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.description-container {
+  padding: 1.5rem;
+  margin-bottom: 30rem;
+}
+
+.description-container p {
+  font-size: 0.7rem;
+  height: 100px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+
+.scrollable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20%;
+}
+
+.scrollable span {
+  font-weight: 400;
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+}
+
+#tradi-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  color: white;
+  margin-bottom: -3rem;
+}
+
+#tradi-container h1 {
+  font-size: 200%;
+  font-weight: 400;
+}
+
+#awan1 {
+  width: 100%;
+  z-index: -1;
+  position: relative;
+  top: -10vh;
+}
+
+.carousel-container {
+  padding: 0;
+  margin-bottom: 40%;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 16/9;
+  width: 100%;
+  height: 120vh;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  /* box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25); */
+  gap: 2rem;
+  /* z-index: 1; */
+}
+
+.slider-item {
+  width: 100%;
+  height: 90%;
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  border-radius: 2rem;
+}
+
+.slider-item h1 {
+  margin: 0.7rem 0;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+}
+
+.slider-item span {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+
+.slider-item img {
+  width: 85%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.slider-item p {
+  width: 85%;
+  text-wrap: wrap;
+  margin: 1rem 0;
+  text-align: justify;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+}
+
+.pembukaan-penutup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 45%;
+}
+
+.pembukaan-penutup h1 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 500;
+  border-bottom: 1px solid white;
+  margin-bottom: 2.5rem;
+}
+
+.pembukaan-penutup img {
+  width: 95%;
+  border-radius: 1rem;
+}
+
+.footer {
+  background: linear-gradient(
+    0deg,
+    #937037 -32.25%,
+    rgba(147, 112, 55, 0) 94.39%
+  );
+  width: 100%;
+  height: 20vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.footer p {
+  font-size: 1rem;
+  font-weight: 400;
+}
